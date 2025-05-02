@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const axiosInstance = axios.create({
-    baseURL: import.meta.env.VITE_BACKENDLINK,
+    baseURL: "https://my-portfolio-mauve-six-81.vercel.app/",
     timeout: 30000,
     headers: { 'Content-Type': 'application/json' }
 })
