@@ -47,7 +47,7 @@ const sayHi = () => {
     phoneNum:<span style="color:#19cfcc; font-weight: bolder;"><a href="https://wa.me/94717109098?text=Hey%20Thushara%20or%20can%20I%20say%20Nikesh%3F%0AContact%20me" target="_blank">'+94-71-7109-098'</span></a>,
     gitHub:<span><a href="https://github.com/LUC1f3R-0">'https://github.com/thushara'</span></a>,
     linkedin:<span><a href="https://www.linkedin.com/in/thushara-thilan-b16784191/">'https://www.linkedin.com/thushara'</span></a>,
-    portfolio:<span><a href="">'https://janedoeportfolio.com/thushara'</span></a>,
+    portfolio:<span><a href="https://genuine-gnome-0fe49b.netlify.app/">'https://my-portfolio.com/thushara'</span></a>,
     website:<span><a href="">''| <span style="color:#7c818a;">none </span></span></a>,
   }
 };
