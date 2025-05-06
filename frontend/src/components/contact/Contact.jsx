@@ -15,9 +15,9 @@ const Contact = () => {
   };
 
   const handleSubmit = async (e) => {
+    console.log(form)
     setMessage(true)
     e.preventDefault();
-
     try {
       const response = await axiosInstance.post('/post/contact', form);
       const { success, message, data } = response.data;
