@@ -2,8 +2,6 @@ import receivedEmail from "../services/templates/receivedEmail.template.service.
 
 const functionTwo = (name, email, subject, message) => {
 
-    console.log(name, email, subject, message)
-
     const mail = {
         from: process.env.SENDER_MAIL,
         to: process.env.SENDER_MAIL,

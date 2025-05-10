@@ -8,12 +8,11 @@ const mailController = async (request, response) => {
 
         //mail for sender
         const mailOptions = functionOne(email);
-        console.log('sender Mail: ', mailOptions)
         await transporter.sendMail(mailOptions);
 
         //mail for me
         const sendMailToMe = functionTwo(name, email, subject, message)
-        console.log('to me mail: ', sendMailToMe)
+        
         await transporter.sendMail(sendMailToMe);
 
         return response.status(200).json({ success: true, message: "Email sent.\nCheck your inbox or spam Folder" });

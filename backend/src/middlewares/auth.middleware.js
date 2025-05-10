@@ -1,6 +1,6 @@
 const authMiddleware = async (request, response, next) => {
   const { name, email, subject, message } = request.body
-  console.log(request.body)
+  
   name?.trim()
   email?.trim()
   subject?.trim()
