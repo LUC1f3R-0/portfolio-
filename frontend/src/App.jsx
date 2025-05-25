@@ -4,7 +4,7 @@ import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
 import Portfolio from "./components/portfolio/Portfolio";
 // import Resume from "./components/resume/Resume";
-import Testimonials from "./components/testimonials/Testimonials";
+// import Testimonials from "./components/testimonials/Testimonials";
 // import Pricing from "./components/pricing/Pricing";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
